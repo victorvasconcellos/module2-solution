@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 2 - Victor Vasconcellos</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: Helvetica; 
+}
+
+p {
+  border: 0;
+  background-color: #F0ECD3;
+  width: 90%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white; 
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+  
+}
+
+</style>
+</head>
+<body>
+<h1>I'm Stuck!!</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-2"><p>Chicken</p></div>
+  <div class="col-lg-3 col-md-2"><p>Beef</p></div>
+  <div class="col-lg-3 col-md-3"><p>Sushi</p></div>
+  
+</div>
+
+</body>
+</html>
